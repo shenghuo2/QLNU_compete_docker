@@ -1,0 +1,14 @@
+# QWB 2019 SuperSqli
+
+version: "2"
+
+services:
+
+  vme_50:
+    build: .
+    image: shenghuo2/vme_50
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=QLNU{dadie_vme_me_50}
