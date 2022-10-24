@@ -4,9 +4,9 @@ version: "2"
 
 services:
 
-  vme_50:
+  just_f12:
     build: .
-    image: shenghuo2/vme_50:1.0.2
+    image: shenghuo2/just_f12
     restart: always
     ports:
       - "127.0.0.1:8302:80"

@@ -1,4 +1,4 @@
 #! /bin/bash
 
-/listen.sh &
-/var/www/html/flag.sh
+#/listen.sh &
+#/var/www/html/flag.sh
