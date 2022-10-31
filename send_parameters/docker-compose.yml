@@ -1,12 +1,12 @@
-# ctrl_u
+# 传参
 
 version: "2"
 
 services:
 
-  just_f12:
+  send_parameters:
     build: .
-    image: shenghuo2/just_f12
+    image: shenghuo2/send_parameters
     restart: always
     ports:
       - "127.0.0.1:8302:80"

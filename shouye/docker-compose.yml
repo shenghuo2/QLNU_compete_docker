@@ -1,12 +1,11 @@
-# ctrl_u
-
+# shouye
 version: "2"
 
 services:
 
-  just_f12:
+  shouye:
     build: .
-    image: shenghuo2/just_f12
+    image: shenghuo2/shouye
     restart: always
     ports:
       - "127.0.0.1:8302:80"
