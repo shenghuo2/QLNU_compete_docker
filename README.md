@@ -4,6 +4,19 @@
 https://github.com/CTFTraining/CTFTraining
 
 ## 注意点
-Dockerfile <br>
-docker-compose.yaml <br>
+Dockerfile
+
+docker-compose.yaml
+
 **flag.sh**为动态flag获取并输出的工具
+
+### web现使用容器:
+
+ctftraining/base_image_nginx_php_73
+
+
+
+
+
+
+
