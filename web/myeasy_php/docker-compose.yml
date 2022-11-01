@@ -1,0 +1,14 @@
+# QWB 2019 SuperSqli
+
+version: "2"
+
+services:
+
+  myeasy_php:
+    build: .
+    image: shenghuo2/myeasy_php
+    restart: always
+    ports:
+      - "0.0.0.0:8302:80"
+    environment:
+      - FLAG=QLNU{dadie_vme_me_50}

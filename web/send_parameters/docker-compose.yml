@@ -1,0 +1,14 @@
+# 传参
+
+version: "2"
+
+services:
+
+  send_parameters:
+    build: .
+    image: shenghuo2/send_parameters
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=QLNU{dadie_vme_me_50}

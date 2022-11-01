@@ -1,0 +1,13 @@
+# nc
+version: "2"
+
+services:
+
+  nc_me:
+    build: .
+    image: shenghuo2/nc_me
+    restart: always
+    ports:
+      - "127.0.0.1:8302:22"
+    environment:
+      - FLAG=QLNU{dadie_vme_me_50}
